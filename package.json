@@ -2,7 +2,7 @@
   "name": "my-first-app",
   "description": "Webcomponent my-first-app following open-wc recommendations",
   "license": "MIT",
-  "author": "Alex QuiD",
+  "author": "Lalo Cano",
   "version": "1.0.0",
   "type": "module",
   "scripts": {

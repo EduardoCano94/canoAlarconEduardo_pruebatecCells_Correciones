@@ -2,9 +2,9 @@ import { css } from "lit";
 
 export const Styles = css`
 .card {
-  background-color:  #ADD8E6;
+  background-color:rgb(237, 252, 26);
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(17, 33, 213, 0.88);
+  box-shadow: 0 2px 8px rgba(57, 67, 177, 0.88);
   overflow: hidden;
   max-width: 300px;
   margin: 16px auto;

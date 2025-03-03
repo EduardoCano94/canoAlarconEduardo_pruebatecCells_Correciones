@@ -2,7 +2,7 @@ import { css } from "lit";
 
 export const Styles = css`
   h1 {
-    color:rgba(3, 54, 29, 0.68);
+    color:rgb(100, 129, 12);
   }
 
   .grid-container {

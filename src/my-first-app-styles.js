@@ -8,11 +8,11 @@ export const Styles = css`
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: rgb(0, 0, 0);
+  color: rgb(95, 9, 9);
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
-  background-color:rgba(48, 10, 136, 0.59); /* Azul claro */
+  background-color:rgba(13, 0, 42, 0.59); 
 }
 
 main {

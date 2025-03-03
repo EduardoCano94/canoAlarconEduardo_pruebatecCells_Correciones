@@ -12,7 +12,7 @@ export const Styles = css`
   }
 
   div > h1 > span {
-    color:rgb(31, 0, 230);
+    color:rgb(122, 114, 175);
   }
 
   div > content {
