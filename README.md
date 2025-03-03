@@ -16,6 +16,11 @@ npm init @open-wc
 ```
 
 ## Scripts
+![image](https://github.com/user-attachments/assets/1a5b27ef-a1c2-4e32-9a85-387403bf1a06)
+![image](https://github.com/user-attachments/assets/4f999fdf-3190-42d2-84af-cd08cc18b3e9)
+
+![image](https://github.com/user-attachments/assets/0ed786c0-6103-4eb1-a9f6-ba7ab3807955)
+
 
 - `start` runs your app for development, reloading on file changes
 - `start:build` runs your app after it has been built using the build command
