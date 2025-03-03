@@ -1,5 +1,5 @@
 import { LitElement, html } from 'lit';
-import { classMap } from 'lit/directives/class-map.js'; // Importar classMap
+import { classMap } from 'lit/directives/class-map.js'; 
 import { Styles } from "./character-card-component-styles.js";
 
 export class CharacterCardComponent extends LitElement {
@@ -11,7 +11,7 @@ export class CharacterCardComponent extends LitElement {
     residents: { type: Array },
     created: { type: String },
     url: { type: String },
-    isSpecial: { type: Boolean } // Ejemplo de propiedad para clases condicionales
+    isSpecial: { type: Boolean } 
   };
 
   static styles = [Styles];
@@ -25,15 +25,15 @@ export class CharacterCardComponent extends LitElement {
     this.residents = [];
     this.created = "";
     this.url = "";
-    this.isSpecial = false; // Inicializar la propiedad
+    this.isSpecial = false; 
   }
 
   render() {
-    // Definir las clases condicionales
+  
     const classes = {
-      card: true, // Siempre aplica la clase 'card'
-      'card--special': this.isSpecial, // Aplica 'card--special' si isSpecial es true
-      'card--unknown': !this.type || !this.dimension // Aplica 'card--unknown' si type o dimension son desconocidos
+      card: true, 
+      'card--special': this.isSpecial, 
+      'card--unknown': !this.type || !this.dimension
     };
 
     return html`
